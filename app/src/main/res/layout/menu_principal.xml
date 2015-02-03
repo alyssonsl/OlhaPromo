@@ -8,6 +8,7 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
         android:orientation="vertical"
         android:layout_gravity="bottom"
         android:layout_marginBottom="20sp">
@@ -25,6 +26,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Buscar Promo"
+            android:textStyle="bold"
             android:background="#0ac60a"
             android:textColor="#ffffff"
             android:textSize="18sp"
@@ -34,6 +36,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Alerta Promo"
+            android:textStyle="bold"
             android:background="#ffb300"
             android:textColor="#ffffff"
             android:textSize="18sp"
@@ -44,6 +47,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Compartilhar Promo"
+            android:textStyle="bold"
             android:background="#00b3ff"
             android:textColor="#ffffff"
             android:textSize="18sp"

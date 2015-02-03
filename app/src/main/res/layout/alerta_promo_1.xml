@@ -17,12 +17,13 @@
         android:textSize="28sp"
         android:layout_marginTop="50px"
         android:layout_marginLeft="50px"
-        android:layout_marginRigt="50px"
+        android:layout_marginRight="50px"
         android:textColor="#ffffff"
         android:textStyle="bold"/>
 
     <!--Button -->
         <Button
+            android:id="@+id/meusalertas"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Meus Alertas"
@@ -31,6 +32,7 @@
             android:layout_margin="10sp"/>
 
         <Button
+            android:id="@+id/novoalerta"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Novo Alerta"
@@ -40,6 +42,7 @@
 
     </LinearLayout>
         <Button
+            android:id="@+id/voltar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Voltar"
