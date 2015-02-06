@@ -14,7 +14,8 @@ public class Menu_principal extends Activity {
     protected void onCreate(Bundle icicle){
         super.onCreate(icicle);
         setContentView(R.layout.menu_principal);
-//botões do menu
+
+        //botões do menu
         Button botaobusca = (Button) findViewById(R.id.buscar);
         botaobusca.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,9 +29,8 @@ public class Menu_principal extends Activity {
         botaoalerta.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-//alterado Meun_principal.this
-                Intent it;
-                it = new Intent(Menu_principal.this, AlertaPromo.class);
+        //alterado Meun_principal.this
+                Intent it = new Intent(Menu_principal.this, AlertaPromo.class);
                 startActivity(it);
             }
         });

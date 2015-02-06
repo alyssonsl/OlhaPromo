@@ -18,6 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".AlertaPromo"/>
+        <activity android:name=".MeusAlertas"/>
+        <activity android:name=".ListaCategorias"/>
     </application>
 
 </manifest>
