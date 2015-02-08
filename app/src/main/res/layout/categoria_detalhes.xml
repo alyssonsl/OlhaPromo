@@ -16,7 +16,8 @@
         android:id="@+id/nome"
         android:textStyle="bold"
         android:textSize="55px"
-        android:padding="10dp"/>
+        android:padding="10dp"
+        android:ellipsize="marquee"/>
 
 
 
