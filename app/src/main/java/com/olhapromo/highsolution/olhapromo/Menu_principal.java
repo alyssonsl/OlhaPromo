@@ -20,7 +20,8 @@ public class Menu_principal extends Activity {
         botaobusca.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // verificar o evento correto para adicionar aqui
+                Intent it = new Intent(Menu_principal.this, ListaCategorias.class);
+                startActivity(it);
             }
         });
 

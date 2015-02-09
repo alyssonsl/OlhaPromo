@@ -2,7 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/categoria">
+    android:background="#0ac60a">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,17 +41,17 @@
             android:layout_height="2dp"
             android:background="#cccccc"/>
 
-    <ListView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/listar"
-        android:layout_gravity="bottom"
-        android:layout_margin="12dp"
-        android:choiceMode="singleChoice"
-        android:background="#ffffffff"
-        android:divider="#FFECECEC"
-        android:dividerHeight="3sp"
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listar"
+            android:layout_gravity="bottom"
+            android:layout_margin="12dp"
+            android:choiceMode="singleChoice"
+            android:background="#ffffffff"
+            android:divider="#FFECECEC"
+            android:dividerHeight="3sp"
 
-        />
+            />
     </LinearLayout>
 </FrameLayout>

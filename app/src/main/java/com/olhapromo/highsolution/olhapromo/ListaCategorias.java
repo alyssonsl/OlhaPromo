@@ -3,10 +3,12 @@ package com.olhapromo.highsolution.olhapromo;
 import android.app.Activity;
 import android.app.ListActivity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.FrameLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -24,11 +26,19 @@ public class ListaCategorias extends Activity implements AdapterView.OnItemClick
 
     protected static final String CATEGORIA ="ca";
     private ListView listView;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.categoria);
+        Intent it =getIntent();
+        FrameLayout cate = (FrameLayout) findViewById(R.id.categoria);
+        if(it.getBooleanExtra("opcao",equals(true)))  {
+
+            cate.setBackgroundColor(Color.parseColor("#ffb300"));
+        }else {
+            cate.setBackgroundColor(Color.parseColor("#0ac60a"));
+        }
+
         //Array com a lista de itens
         ArrayList<Categorias> lista = new ArrayList<Categorias>();
         lista.add(new Categorias("Notebook",Categorias.Notebook));
