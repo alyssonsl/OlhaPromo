@@ -9,8 +9,8 @@ import com.olhapromo.highsolution.olhapromo.R;
 //Classe de categorias
 public class Categorias {
     public static final int Notebook =0;
-    public static final int Elterodomestico = 1;
-    public static final int Seila =2;
+    public static final int Tablet = 1;
+    public static final int Smartphone =2;
 
 
 
@@ -25,13 +25,14 @@ public class Categorias {
     public int getImagem(){
         switch (tipo){
             case Notebook:
-                return R.drawable.ic_launcher;
-            case Elterodomestico:
-                return R.drawable.ic_launcher;
-            case Seila:
-                return R.drawable.ic_launcher;
+                return R.drawable.hardware_computer;
+            case Tablet:
+                return R.drawable.hardware_tablet;
+            case Smartphone:
+                return R.drawable.hardware_phone;
         }
-        return R.drawable.ic_launcher;
+        return R.drawable.ic_launcher;//colocar outra opção  de imagem
+
     }
 
 

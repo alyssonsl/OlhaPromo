@@ -32,6 +32,8 @@ public class AlertaPromo extends Activity {
             @Override
             public void onClick(View v) {
                 Intent it = new Intent(AlertaPromo.this, ListaCategorias.class);
+                boolean verdade = true;
+                it.putExtra("opcao",verdade);
                 startActivity(it);
             }
         });

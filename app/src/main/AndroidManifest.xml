@@ -20,6 +20,7 @@
         <activity android:name=".AlertaPromo"/>
         <activity android:name=".MeusAlertas"/>
         <activity android:name=".ListaCategorias"/>
+        <activity android:name=".Cadastros_Produto"/>
     </application>
 
 </manifest>
